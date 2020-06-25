@@ -26,7 +26,6 @@ class ProxyThread(threading.Thread):
 hosting = "127.0.0.1"
 cnn = "151.101.65.67"
 port = 443
-
 proxy_server = ProxyThread(hosting, cnn, port)
 proxy_server.start()
 
